@@ -1,5 +1,15 @@
 #include <stdio.h>
+#include <string.h>
+/**
+ * main - writes the string to stdout
+ *Return: 0
+ */
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	/* string initialisation*/
+	char Mystr[] = "\"Programming is like building a multilingual puzzle\n";
+
+	puts(Mystr); /* writing the string to stdout*/
+
 	return (0);
 }
