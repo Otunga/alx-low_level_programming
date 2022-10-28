@@ -22,38 +22,20 @@ char *cap_string(char *str)
 	return (str);
 }
 
-
-
 /**
-
  * separator - checks for separators
-
  * @s: a character
-
  * Return: 1 if separator, else 0
-
  */
-
 int separator(char s)
-
 {
-
 	int i = 0;
-
 	char sep[] = ",\t;\n; .!?\"(){}";
 
-
-
 	for ( ; i < 13; i++)
-
 	{
-
 		if (s == sep[i])
-
 			return (1);
-
 	}
-
 	return (0);
-
 }
