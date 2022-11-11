@@ -6,7 +6,6 @@
  * _memset - fill memory with constant byte
  * @s: pointer to memory block to fill
  * @b: characters to fill
- *
  * @n: number of bytes to fill
  * Return: pointer to filled memory area
  */
@@ -116,4 +115,4 @@ int main(int argc, char *argv[])
 	else
 		multiply(n1, n2);
 	return (0);
-
+}
