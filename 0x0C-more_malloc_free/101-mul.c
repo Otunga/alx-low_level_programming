@@ -6,6 +6,7 @@
  * _memset - fill memory with constant byte
  * @s: pointer to memory block to fill
  * @b: characters to fill
+ *
  * @n: number of bytes to fill
  * Return: pointer to filled memory area
  */
